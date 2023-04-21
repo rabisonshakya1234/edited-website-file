@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Island+Moments&family=The+Nautigal:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Island+Moments&family=Luxurious+Roman&family=The+Nautigal:wght@700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar{
+    position: absolute;
+	background-color: rgb(167, 161, 161);
+	width: 434px;
+	font-family: 'Dongle', sans-serif;
+	height: 100vh;
+    transition: transfrom 0.3s ease-in;
+}
+.sidebar nav{
+	    padding: 45px;
+}
+.sidebar nav li{
+	list-style: none;
+	font-size: 30px;
+	padding:33px 0;
+}
+.sidebar nav li a{
+	text-decoration: none;
+	color: black;
+}
+
+.main{
+	/*background-color: yellow;*/
+	    width: 90vw;
+}
+.container{
+	display: flex;
+}
+.infocontainer{
+	/*background-color:rgb(202, 9, 128);*/
+	height: 58vh;
+	width: 80vw;
+	margin: 147px auto;
+	display: flex;
+	justify-content: space-around;
+}
+.myinfo{
+    font-size: 16px;
+  display: flex;
+ justify-content: center;
+  flex-direction: column;
+  font-family: 'Luxurious Roman', cursive;
+}
+.hello{
+ font-size: 3em;
+ 
+}
+
+
+.name{
+ font-size: 3em;
+ font-weight: bold;
+ font-family: 'Dongle', sans-serif;
+
+}
+.intro{
+ font-size: 2.5em;
+margin: 147px auto;
+}
+.button button{
+padding: 9px 14px;
+border-radius: 22px;
+color: white;
+background-color: dodgerblue;
+font-weight: bold;
+font-size: 21px;
+margin: 0 3px;
+cursor: pointer;
+}
+.button button:hover{
+	color: dodgerblue;
+	background-color: white;
+}
+
+
+.mypic img{
+height:58vh;
+border: 2px solid white;
+border-radius: 50px;
+}
+.contactform{
+    padding: 0 34px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.contactform h1{
+    font-family: 'Lato', sans-serif;
+    padding: 12px 0;
+}
+.contactform form div{
+    padding: 10px 0;
+
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+width: 24px;
+margin: 3px 0;
+}
+.contactform form{
+margin: 0 30px;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background: #D9DCE1;
+	font-size: 20px;
+}
+h1 {
+	font-size: 40px;
+	text-align: center;
+    margin: 25px auto;
+}
+.services {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .services h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+  
+  .services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .service {
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    margin: 20px;
+    max-width: 350px;
+    padding: 30px;
+    text-align: left;
+    transition: all 0.3s ease;
+  }
+  
+  .service:hover {
+    transform: translateY(-10px);
+  }
+  
+  .service img {
+    max-width: 100%;
+  }
+  
+  .service h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .service p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+.intro h1{
+    font-family: 'Fira Sans', sans-serif;
+    margin:  15px;
+}
+.intro p{
+    font-family: 'Lato', sans-serif;
+    margin: 16px;
+}
+.sidebarGo{
+    transform: translate(-443px, 0);
+    position: absolute;
+}
+
+.hamburger{
+    position: absolute; 
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+ }
+ .ham{
+    margin-top: 10px;
+    margin-left: 10px;
+ }
+ .cross{
+     margin-left: 185px;
+     margin-top: 10px;
+ }
+
+ @media (max-width: 667px) {
+	*{
+		/* background-color: red; */
+	}
+	/* .sidebar{
+		transform: translate(-443px, 0px);
+		position: absolute;
+	} */
+	.mypic{
+		display: none;
+	}
+    .intro , .contactform{
+        margin: 50px 8px;
+    }
+    .buttons{
+        font-size: 6px;
+    }
+  }
+ @media (max-width: 1180px) {
+	*{
+		/* background-color: red; */
+	}
+	/* .sidebar{
+		transform: translate(-443px, 0px);
+		position: absolute;
+	} */
+	.mypic{
+		display: none;
+	}
+    .intro , .contactform{
+        margin: 50px 8px;
+    }
+    .buttons{
+        font-size: 6px;
+    }
+  }
+  
+ @media (max-width: 700px) {
+	*{
+		/* background-color: red; */
+	}
+	/* .sidebar{
+		transform: translate(-443px, 0px);
+		position: absolute;
+	} */
+	.mypic{
+		display: none;
+	}
+    .intro , .contactform{
+        margin: 50px 8px;
+    }
+    .buttons{
+        font-size: 6px;
+    }
+  }
+  
+ @media (max-width: 700px) {
+	*{
+		/* background-color: red; */
+	}
+	/* .sidebar{
+		transform: translate(-443px, 0px);
+		position: absolute;
+	} */
+	.mypic{
+		display: none;
+	}
+    .intro , .contactform{
+        margin: 50px 8px;
+    }
+    .buttons{
+        font-size: 6px;
+    }
+  }
+  
+ @media (max-width: 700px) {
+	*{
+		/* background-color: red; */
+	}
+	/* .sidebar{
+		transform: translate(-443px, 0px);
+		position: absolute;
+	} */
+	.mypic{
+		display: none;
+	}
+    .intro , .contactform{
+        margin: 50px 8px;
+    }
+    .buttons{
+        font-size: 6px;
+    }
+  }
+  
+ @media (max-width: 700px) {
+	*{
+		/* background-color: red; */
+	}
+	/* .sidebar{
+		transform: translate(-443px, 0px);
+		position: absolute;
+	} */
+	.mypic{
+		display: none;
+	}
+    .intro , .contactform{
+        margin: 50px 8px;
+    }
+    .buttons{
+        font-size: 6px;
+    }
+  }
+  
+ @media (max-width: 740px) {
+	*{
+		/* background-color: red; */
+	}
+	/* .sidebar{
+		transform: translate(-443px, 0px);
+		position: absolute;
+	} */
+	.mypic{
+		display: none;
+	}
+    .intro , .contactform{
+        margin: 50px 8px;
+    }
+    .buttons{
+        font-size: 6px;
+    }
+  }
+  
+ @media (max-width: 915px) {
+	*{
+		/* background-color: red; */
+	}
+	/* .sidebar{
+		transform: translate(-443px, 0px);
+		position: absolute;
+	} */
+	.mypic{
+		display: none;
+	}
+    .intro , .contactform{
+        margin: 50px 8px;
+    }
+    .buttons{
+        font-size: 6px;
+    }
+  }
+  
+ @media (max-width: 1368px) {
+	*{
+		/* background-color: red; */
+	}
+	/* .sidebar{
+		transform: translate(-443px, 0px);
+		position: absolute;
+	} */
+	.mypic{
+		display: none;
+	}
+    .intro , .contactform{
+        margin: 50px 8px;
+    }
+    .buttons{
+        font-size: 6px;
+    }
+  }
+ @media (max-width: 720px) {
+	*{
+		/* background-color: red; */
+	}
+	/* .sidebar{
+		transform: translate(-443px, 0px);
+		position: absolute;
+	} */
+	.mypic{
+		display: none;
+	}
+    .intro , .contactform{
+        margin: 50px 8px;
+    }
+    .buttons{
+        font-size: 6px;
+    }
+  }
+ @media (max-width: 653px) {
+	*{
+		/* background-color: red; */
+	}
+	/* .sidebar{
+		transform: translate(-443px, 0px);
+		position: absolute;
+	} */
+	.mypic{
+		display: none;
+	}
+    .intro , .contactform{
+        margin: 50px 8px;
+    }
+    .buttons{
+        font-size: 6px;
+    }
+  }
+ @media (max-width: 914px) {
+	*{
+		/* background-color: red; */
+	}
+	/* .sidebar{
+		transform: translate(-443px, 0px);
+		position: absolute;
+	} */
+	.mypic{
+		display: none;
+	}
+    .intro , .contactform{
+        margin: 50px 8px;
+    }
+    .buttons{
+        font-size: 6px;
+    }
+  }
+ @media (max-width: 600px) {
+	*{
+		/* background-color: red; */
+	}
+	/* .sidebar{
+		transform: translate(-443px, 0px);
+		position: absolute;
+	} */
+	.mypic{
+		display: none;
+	}
+    .intro , .contactform{
+        margin: 50px 8px;
+    }
+    .buttons{
+        font-size: 6px;
+    }
+  }
+ @media (max-width: 800px) {
+	*{
+		/* background-color: red; */
+	}
+	/* .sidebar{
+		transform: translate(-443px, 0px);
+		position: absolute;
+	} */
+	.mypic{
+		display: none;
+	}
+    .intro , .contactform{
+        margin: 50px 8px;
+    }
+    .buttons{
+        font-size: 6px;
+    }
+  }
+
+    
+
+
